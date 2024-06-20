@@ -1,0 +1,21 @@
+.container .location{
+    text-align: start;
+  font-size: x-large;
+ font-weight: bolder;
+margin-top: 20px;
+  
+}
+
+
+.description{
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:auto;
+    padding: 20px;
+    font-size: medium;
+   font-weight: bold;
+   background-color: rgba(255, 255, 255, 0.5)
+  
+}
