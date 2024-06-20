@@ -1,7 +1,12 @@
 I created full stack weather app..this is the frontend. I used vite and react to run this app.
 I have created different routes and components.
 I used weather app api.
+I used javascript.
 I used some css.
+I used on image from upslash
+Here is the link for my backend:
+
+
 
 
 
