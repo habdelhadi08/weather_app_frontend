@@ -1,10 +1,15 @@
-I created full stack weather app..this is the frontend. I used vite and react to run this app.
-I have created different routes and components.
+Description:
+I created full stack weather app..this is the frontend. I have created different routes and components. Also used axios and fetch method.
 I used weather app api,
 javascript,
-some css.
-I used on image from upslash
-Also used axios and fetch method.
+Built with:
+vite
+react
+javascript
+css
+I used image from upslash
+
+
 Here is the link for my backend:
 https://github.com/habdelhadi08/weather_app_backend.git
 
