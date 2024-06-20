@@ -1,13 +1,13 @@
 Description:
 I created full stack weather app..this is the frontend. I have created different routes and components. Also used axios and fetch method.
 I used weather app api,
+Technologis used:
 javascript,
-Built with:
-vite
-react
-javascript
-css
-I used image from upslash
+vite,
+react,
+javascript,
+css,
+I used couple images from upslash
 
 
 Here is the link for my backend:
