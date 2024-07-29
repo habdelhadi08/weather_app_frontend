@@ -34,7 +34,7 @@ function HomePage() {
 
   return (
 <div className="container">
-      <h1 style={{color:"blue"}}>The Weather Channel</h1>
+      <h1 style={{color:"white"}}>The Weather Channel</h1>
       <Form datasearch={getData} />
       
       {data ? <DataDisplay data={data} /> : <h1>Please try again</h1>}

@@ -21,14 +21,18 @@ function Form({ datasearch }) {
 
   return (
     <div className="searchBar">
-      <form onSubmit={handleSubmit}>
+  <form onSubmit={handleSubmit}>
+      <i class="fa-solid fa-location-dot"></i>
         <input
           type="text"
           name="searchTerm"
           value={formData.setFormData}
           onChange={handleChange}
+          placeholder= "Enter your location" 
+          
         />
-        <input placeholder="Enter yout location" type="submit" />
+         
+        <button> submit </button>
       </form>
     </div>
   );

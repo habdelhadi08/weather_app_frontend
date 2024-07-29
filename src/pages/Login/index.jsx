@@ -15,12 +15,15 @@ function Login() {
       username,
       password,
     });
-    console.log(res.data);
-   navigate("/");
-  };
+    console.log(res.status);
+   if(res.status == 200){
+    navigate("/");
+   }else {
+retun
+   } };
 
   return (
-    <>
+    <div className="login">
       <h1>Welcome Back</h1>
       <form onSubmit={handleSubmit}>
         <label for="Username">
@@ -49,10 +52,10 @@ function Login() {
           />
         </label>
      
-     <input  type="submit" />
+        <button type="submit">login</button> 
       
       </form>
-    </>
+    </div>
   );
 }
 

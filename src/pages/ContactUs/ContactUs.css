@@ -1,3 +1,18 @@
 div{
-    color: blue;
+    color: white;
+}
+.newClass{
+    background-image: url(../../assets/imagescorinne-kutz-tMI2_-r5Nfo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    background-attachment: fixed;
+    
+    background-size:cover;
+    z-index: -1;
+    
+    
 }

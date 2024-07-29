@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../Signup/Signup.css"
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 function Signup() {
@@ -9,6 +10,8 @@ function Signup() {
   const navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
+    
+   
     const res = await axios.post("http://localhost:4000/auth/signup", {
       username,
       password,
@@ -16,12 +19,14 @@ function Signup() {
       birthdate,
     });
     console.log(res.data);
-    navigate("/");
-    
-  };
-
-  return (
-    <>
+    if(res.status == 200){
+      navigate("/login");
+     }else {
+  retun
+     } };
+  
+ return (
+    <div className="signup">
       <h1>Please Sign up</h1>
       <form onSubmit={handleSubmit}>
         <label for="Username">
@@ -68,10 +73,11 @@ function Signup() {
             type="date"
             name="Birthday"
           />
-          <input type="submit" />
+          <button type="submit">signup</button> 
+    
         </label>
       </form>
-    </>
+    </div>
   );
 }
 

@@ -7,7 +7,7 @@ margin-top: 20px;
 }
 
 
-.description{
+.box{
     position:relative;
     display: flex;
     flex-direction: row;
@@ -16,6 +16,21 @@ margin-top: 20px;
     padding: 20px;
     font-size: medium;
    font-weight: bold;
-   background-color: rgba(255, 255, 255, 0.5)
+   background-color:red;
   
-}
+  }
+   .box:hover{
+   background-color: blue;
+   border-bottom: 4px solid #fff;
+   transition: all 0.4s ease-out;
+   }
+   .container{
+    position: relative;
+    text-align: center;
+    font-size: x-large;
+    inset-inline: 0px;
+    
+   
+    
+   }
+   
